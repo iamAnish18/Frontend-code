@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascard Alogratim and boder-box</title>
+
+    <style>
+        .box{
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 80vw;
+            height:25vh;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3rem;
+            border-radius: 10px;
+            box-shadow: 2px 3px 5px 10px;
+            box-shadow: inset;
+            margin: auto;
+           /* display: none;
+            visibility: hidden;*/
+        }
+
+        .box1{
+            box-sizing: border-box;
+            border: 2px solid black;
+            padding-top: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 99vw;
+            height: 40vh;
+            margin: 25px auto;
+            text-shadow: 2px 0px 4px ;
+            /* display: none;
+            visibility: hidden;*/
+        }
+        #pro{
+            width: 50%;
+            border: 2px solid rebeccapurple;
+            height: 25vh;
+            overflow: scroll;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+        /* The Specificity of this  selector is 1*/
+        h1 {
+            color: aqua;
+        }
+
+        /* The Specificity of this  selector is  1+10=11*/
+        h1.yellow {
+            color: yellow;
+        }
+
+        /* The Specificity of this  selector is 10*/
+        .blue {
+            color: blue;
+        }
+
+        /* The Specificity of this  selector is 1+10=11*/
+
+        h1.ram {
+            color: rgb(212, 11, 72);
+        }
+
+        /*note=!important at the end of a CSS value gets a specificity score of 10,000 points.*/
+
+        /*This is a example of attribute selector.The Specificity of this  selector is 10*/
+        [data-rd="a"] {
+            background-color: rgb(215, 167, 109);
+        }
+
+        /* The Specificity of this  selector is 1+10+10+10+10=41
+        a.harryclass.rohan-class[href]:hover {
+            color: rgb(187, 4, 4);
+        }*/
+    </style>
+</head>
+
+<body>
+    <h1 class="yellow blue ram"data-rd="a">Aakash Yaduvanish</h1>
+    <div class="box">
+        Hello Lorem
+    </div>
+
+    <div class="box1">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facere odit ad, expedita ea corporis exercitationem a fugit error molestiae placeat totammaiores, numquam animi blanditiis sunt officia impedit qui enim alias! Odit blanditiis consectetur temporibus provident. Ipsa quia est voluptatum ea ab,Loremipsum dolor sit amet consectetur adipisicing elit. Adipisci dolores nam quis illo fugit rerum modi laudantium maiores. Cumque nostrum sit perferendis id. Saepein fugiat quasi hic dicta, neque ipsum ea quia, aliquid reprehenderit voluptas voluptate, minus dignissimos. Optio totam eveniet nulla nesciunt numquamdelectus repudiandae reiciendis voluptatem cum placeat provident, minus alias asperiores consectetur amet quaerat et quam enim sunt magni. Placeat excepturinam nostrum accusantium at itaque quibusdam ratione, harum consectetur, quam praesentium rerum, quod dolor sint vero veritatis ab quidem maxime ex architectosimilique expedita. At provident praesentium doloribus et molestias ea quaerat illum, maiores deserunt.
+    </div> 
+
+    <div id="pro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis, alias earum dolores consequuntur aperiam enim quis nihil adipisci libero laudantium, quo, quos illo tempora soluta praesentium neque? Dicta deserunt itaque ullam, aspernatur eos, culpa amet nisi mollitia quia at voluptatum voluptas laboriosam necessitatibus recusandae architecto cupiditate rem vero ipsam deleniti eum libero velit nam ducimus sunt. Iusto, tempora at? Earum, quae placeat. Aut nobis soluta accusamus quos amet laborum ut unde architecto est a vero, porro voluptatem deleniti officia temporibus, necessitatibus fugiat culpa recusandae magni incidunt. Maxime eaque sequi debitis asperiores. Culpa, autem! Quibusdam a quasi aliquam corrupti possimus, eligendi voluptatem officia itaque? Enim sapiente maiores similique minus, obcaecati aliquam rem. Iste officia suscipit debitis mollitia. Doloribus mollitia cum labore pariatur ullam neque voluptatibus tempore reiciendis quibusdam autem reprehenderit fuga tenetur, quis at! Hic modi pariatur obcaecati vel quae officia ullam, cum repudiandae dolores enim minima eos iste ex possimus, consectetur placeat soluta veritatis. Reiciendis sapiente sit nisi quasi quas consequuntur doloribus maiores, cupiditate iste asperiores accusantium amet magni, explicabo incidunt architecto aliquid exercitationem. Sapiente, impedit! Ab hic debitis dolorum facilis quo ad alias nostrum at asperiores ipsam voluptatem expedita consequatur, earum esse! Distinctio, non id exercitationem sed obcaecati eum error velit a nihil repudiandae nobis nemo tempore quibusdam, doloremque officia hic repellat vero iure! At temporibus nulla sapiente. Delectus totam magni numquam asperiores fuga officiis eius suscipit similique nostrum doloremque sint quam veniam in laboriosam ducimus natus dolore, molestias eum mollitia distinctio. Voluptates quos officiis beatae minima repudiandae!
+    </pro>
+</body>
