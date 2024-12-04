@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css postion style.</title>
+    <style>
+        @media screen and (max-width:500px){
+            .box{
+                height: 50px;
+                width: fit-content;
+            }
 
+            .box4{
+                font-size: 2em;
+            }
+            .box3{
+                font-size: 2em;
+            }
+        }
+        *{
+            padding: 0;
+            background-color: gray;
+            color: white;
+            overflow-x: hidden;
+        }
+          .pro{
+            width: 80vw;
+            height: 90vh;
+            border: 2px solid black;
+            margin: auto;
+            background-color: beige;
+            box-shadow: inset;
+            box-shadow: 10px 20px 30px 25px;
+          }
+          .box{
+            width: 75vw;
+            height: 100px;
+            margin: 5px;
+            border: 1px solid black;
+          }
+        .box1{
+            background-color: aqua;
+            position :relative;
+            top: 25px ;
+            left:10px
+        }
+        .box2{
+            background-color: aquamarine;
+            z-index: 10;
+           
+        }
+        .box3{
+            background-color: black;
+            position: sticky;
+            top: 0px;
+            font-size: 3em;
+        }
+        .box4{
+            background-color:purple ;
+            position: fixed;
+            bottom: 0px;
+            font-size: 3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pro">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3">Mr.Virat Kohli</div>
+    <div class="box box4">Informarion</div>
+   </div>
+
+   <div>
+    <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt="images" width="99%" >
+   </div>
+</body>
+</html>
