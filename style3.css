@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css list style and Varible</title>
+    <style>
+      :root {
+        --color: rgb(35, 29, 206);
+        --secolor: rgb(132, 163, 8);
+        --defpad: 35px;
+        --defop: 0.5;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      ol li {
+        list-style-position: inside;
+        border: 2px solid black;
+        background-color: var(--color);
+        /*   list-style-image: url(https://softwarelab.org/wp-content/uploads/URL-Types.jpg.webp);*/
+      }
+      span ul,
+      li {
+        display: flex;
+        padding: var(--defpad);
+        background-color: var(--color);
+        color: var(--secolor);
+        opacity: var(--defop);
+      }
+
+      .box1 {
+        background-color: var(--secolor);
+      }
+    </style>
+  </head>
+  <body>
+    <span>
+      <ul>
+        <li>home</li>
+        <li>about</li>
+        <li>sign in</li>
+      </ul>
+    </span>
+    <div class="box1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias
+        eligendi, eius exercitationem veritatis sit inventore repellat,
+        accusantium repellendus fugit similique accusamus? Blanditiis atque
+        velit in enim ut corrupti corporis! Similique nobis mollitia nemo totam
+        id voluptatibus soluta odit laudantium illum? Laudantium nam maxime
+        reprehenderit minus.
+      </p>
+    </div>
+    <div>
+      <ol class="pro">
+        <li>Anish</li>
+        <li>Ronak</li>
+        <li>Aashu</li>
+      </ol>
+    </div>
+  </body>
+</html>
 
