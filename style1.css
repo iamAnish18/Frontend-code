@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css selecter</title>
+    <style>
+        h1{
+            font-size: 4em;
+            font-weight: 100;
+            justify-items: center;
+        }
+      /*Element Selector*/
+      /*div,span{
+            color: brown;
+        }*/
+
+      /*Class Selector*/
+      .box1 {
+        background-color: aqua;
+        color: red;
+      }
+
+      /*Id Selector*/
+      #par1{
+        background-color: bisque;
+        color: aqua;
+      }
+
+      /*Universal Selector*/
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      /*Pesodu Selector*/
+      main a:visited{
+        color: red;
+      }
+
+      main a:active{
+        background-color: antiquewhite;
+      }
+      
+      main a:hover{
+        background-color: black;
+        color: white;
+    }
+
+    p:first-child{
+        background-color: black;
+        color: white;
+    }
+
+    </style>
+  </head>
+  <body>
+    <center><h1>Hello CSS.</h1></center>
+    <div class="box box1">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+      laborum deleniti cumque sit aperiam, ab error nobis. Vero quod, obcaecati
+      soluta molestias labore aliquam, pariatur dicta ullam, eius sed illo animi
+      fuga dolore repudiandae quo recusandae voluptates facilis consectetur?
+      Maxime fugit sapiente voluptatum veniam cumque?
+    </div>
+
+    <span>
+      <p id="par1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi
+        ipsa molestias consectetur distinctio nobis eligendi suscipit deleniti!
+        Nobis, veniam.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab voluptate
+        quis molestias earum delectus, vel ea totam quidem tempore recusandae
+        velit quas explicabo, perferendis distinctio enim numquam quam
+        laudantium tenetur.
+      </p>
+      <div class="box1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
+        neque!
+      </div>
+    </span>
+
+    <main>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore repudiandae repellendus amet blanditiis eius dicta? Quidem eligendi iste ex qui, consequuntur laborum? Assumenda, reprehenderit enim.</p>
+      <a href="https://google.com">Google</a>
+      <a href="https://instagrama.com">Instagram</a>
+      <a href="https://linkedIn.com">linkedIn</a>
+    </main>
+  </body>
+</html>
 
