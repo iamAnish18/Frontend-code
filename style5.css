@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object fit,filter and Animanations.</title>
+    <style>
+        .boll {
+        height: 250px;
+        width: 250px;
+        border: 2px solid black;
+        background-color: bisque;
+        border-radius: 50%;
+        position: absolute;
+        animation: move 3s infinite alternate ease-in-out;
+      }
+      .box {
+        width: 38vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        border: 2px solid black;
+        background-image: url(https://media.gettyimages.com/id/1253177076/photo/mumbai-maharashtra-india-indian-premiere-league-cricket-team-royal-challengers-bangalore.jpg?s=612x612&w=gi&k=20&c=pdTZQrfivOTm31UjF_lvU_kNI_Q3ZAwP0Juab7W04Kw=);
+        background-repeat: no-repeat;
+      }
+
+      img {
+        object-fit: cover;
+        /* object-fit: fill;*/
+        object-position: top bottom;
+        background-repeat: repeat;
+      }
+
+      @keyframes move {
+            0% {
+                transform: translateX(0) ;
+            }
+            25% {
+                transform: translateX(200px) ;
+            }
+            50% {
+                transform: translateX(200px) ;
+            }
+            75% {
+                transform: translateX(0) ;
+            }
+            100% {
+                transform: translateX(0) ;
+            }
+      }
+
+      .images{
+        padding-top: 250px;
+        filter: blur(2px);
+        /* filter: brightness(5);
+        filter: opacity(0.5);
+        filter: grayscale(0.9); */
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="box"></div>
+      <div class="boll"></div>
+      <div class="images"><img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/06/kohli-10-1624188383.jpg" alt=""></div>
+    </header>
+  </body>
+</html>
