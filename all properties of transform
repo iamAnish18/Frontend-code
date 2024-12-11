@@ -26,11 +26,9 @@
         color: black;
         font-weight: 500;
       }
-      .blue {
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwwWnOmv6F43UgGkbZSO7FAncFAxXhJLUjfw&s);
-        object-fit: cover;
-        width: 120px;
-        height: 200px;
+
+      .blue{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwwWnOmv6F43UgGkbZSO7FAncFAxXhJLUjfw&s);
+       background-position: 100px bottom;
       }
 
       .scaleX {
