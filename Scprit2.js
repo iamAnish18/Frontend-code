@@ -137,7 +137,69 @@ let cities = ["delhi","jaipur","bombay","gudagam","goa"]
 for (const p of cities) {
     console.log(p.toUpperCase());
 }
+console.log("Jai Mahakal");
 
+let marks = [25,60,50,78,96,100];
+console.log(marks);
+console.log(marks.length);
+console.log(marks[5]=25);
+
+for(let i=0;i<marks.length ;i++){
+    console.log("marks of students =" ,marks[i]);
+}
+
+let cricket_kit = ["bat" ,"ball"];
+console.log(cricket_kit);
+console.log(cricket_kit.length);
+console.log(typeof cricket_kit);
+
+let cities = ["delhi","jaipur","bombay","gudagam","goa"]
+for (const p of cities) {
+    console.log(p.toUpperCase());
+}
+
+//Practics Question 1.
+let result = [85,25,60,80,90,99];
+let box = 0;
+for (const val of result) {
+    box += val ;
+}
+console.log( "Average of result of class student = " ,box/6);
+
+//Practics Question 2.
+let price = [250,600,850,963,720,4569];
+let a = 0;
+for (const input of price) {
+    console.log(`the price of items ${a} = ${input}`);
+    let offer = input/10;
+    price[a] = price[a] - offer;
+    console.log(`price after discount  = ${price[a]}`);
+    a++;
+}
+
+let food =["Apple" ,"Banana" ,"mango" ,"orange" ,"whatermelon"];
+food.push("tamato" ,"naspaty");
+console.log(food);
+
+food.pop();
+console.log(food);
+
+console.log(food.toString());
+
+let batman = ["Virat Kholi" ,"Rohit Sharma" ,"Shuman Gill" ,"Klrahul" ,"Sachin"]
+
+let ball = ["Shami" ,"Jadija" ,"Bhumara" ,"shiraja"]
+// let team = batman.concat(ball);
+// let team = batman.unshift("pant");
+let team = batman.shift();
+console.log(team);
+
+let num = [25,60,1,22,90];
+console.log(num.slice(1,3));
+console.log(num.splice(2,2,102,2005));
+console.log(num);
+
+//Practics Question 3
 
 
 
