@@ -20,17 +20,8 @@ let pro ={
     age : 18,
     is_handsome:true
 }
-console.log(pro)
-
-//Artimatics Operator
-let f = 10;
-let g = 12;
-console.log("a + b=", a+b)
-console.log("a - b=", a-b)
-console.log("a / b=", a/b)
-console.log("a * b=", a*b)
-console.log("a ** b=", a**b)
-console.log("a % b=", a%b)
+console.log(pro);
+console.log(typeof pro);
 
 
 //Assignment Operator
