@@ -108,7 +108,7 @@ while(i<15){
 let cc =100;
 do{
     console.log(cc),
-    a++;
+    cc++;
 }while(a<5); 
 
 function place(name){
