@@ -92,8 +92,8 @@ console.log(specalstring);
 // /n and /t
 
 let pre = "Apan  Collage"
-pre3=pre.toUpperCase();
-pre4=pre.toLowerCase();
+let pre3=pre.toUpperCase();
+let pre4=pre.toLowerCase();
 console.log(pre);
 console.log(pre3);
 console.log(pre4);
