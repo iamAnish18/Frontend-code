@@ -59,6 +59,7 @@ for(let num=0;num<=100 ;num++ ){
 }
 
 //Question Practics 2
+//Prompt are only for browzer
 
 // let Gamenumber = 30;
 // let usernumber = prompt("Enter your gamenumber.");
