@@ -109,7 +109,7 @@ let cc =100;
 do{
     console.log(cc),
     cc++;
-}while(a<5); 
+}while(cc<5); 
 
 function place(name){
     console.log("This is my new function" + name)
